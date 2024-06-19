@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\BlogPost;
-use Carbon\Carbon;
 use App\Jobs\ProcessVideoJob;
 use App\Jobs\GenerateCatalog\GenerateCatalogMainJob;
+use App\Models\BlogPost;
+use Carbon\Carbon;
 
 class DiggingDeeperController extends Controller
 {
+    
     /**
      * Базова інформація 
      * @url https://laravel.com/docs/11.x/collections#introduction
